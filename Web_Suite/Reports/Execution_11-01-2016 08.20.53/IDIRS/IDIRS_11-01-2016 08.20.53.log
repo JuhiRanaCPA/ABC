@@ -1,0 +1,35 @@
+
+
+ ---------------------------------------------------------------------------------------------------
+OpenURL(http://127.0.0.1:8091/)
+ ---------------------------------------------------------------------------------------------------
+
+highLightElement: 
+Element Higlighted
+highLightElement: (IDIRS_ObjectMap.AppDiv)
+Element Higlighted
+
+ ---------------------------------------------------------------------------------------------------
+window.scrollBy(0,50)
+
+ ---------------------------------------------------------------------------------------------------
+TestPoint (POST /session/e0786459-95f0-40f3-98f7-06b99e97aad3/moveto did not match a known command
+Build info: version: 'unknown', revision: '350cf60', time: '2016-10-13 10:43:56 -0700'
+System info: host: 'juhi', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: e0786459-95f0-40f3-98f7-06b99e97aad3, True, False)
+
+ Test Point: Fail
+
+Desc: POST /session/e0786459-95f0-40f3-98f7-06b99e97aad3/moveto did not match a known command
+Build info: version: 'unknown', revision: '350cf60', time: '2016-10-13 10:43:56 -0700'
+System info: host: 'juhi', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: e0786459-95f0-40f3-98f7-06b99e97aad3 - Expected - [True] & Actual - [False]
+
+ ---------------------------------------------------------------------------------------------------
+
+
+Done with IDIRS-Iteration1-Firefox

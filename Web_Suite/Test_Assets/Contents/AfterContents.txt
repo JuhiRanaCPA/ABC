@@ -1,0 +1,16 @@
+} catch (Exception e){
+     
+     Report.TestPoint(sTestName, e.getMessage(), "True", "False", true);
+  }    
+ }  
+ 
+ @AfterTest public void afterTest(final ITestContext testContext) throws IOException, ParseException, HeadlessException, AWTException, InterruptedException {
+  Utilities.CloseExecution(testContext);
+  Report.CloseTestReport(testContext.getName());
+ }
+ 
+ @AfterSuite public void endSuite() throws IOException {
+  Report.cleanTemp();
+ }
+ 
+}

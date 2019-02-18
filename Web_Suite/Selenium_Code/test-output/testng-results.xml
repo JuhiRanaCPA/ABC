@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20988" started-at="2019-01-01T19:01:59Z" finished-at="2019-01-01T19:02:20Z">
+    <groups>
+    </groups>
+    <test name="TCGoogle-Iteration1-Firefox" duration-ms="20988" started-at="2019-01-01T19:01:59Z" finished-at="2019-01-01T19:02:20Z">
+      <class name="Google.TCGoogle">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:Google.TCGoogle@1f37ef1]" name="beforeSuite" is-config="true" duration-ms="307" started-at="2019-01-02T00:31:59Z" finished-at="2019-01-02T00:31:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b21967]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:Google.TCGoogle@1f37ef1]" name="beforeTest" is-config="true" duration-ms="12799" started-at="2019-01-02T00:31:59Z" finished-at="2019-01-02T00:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b21967]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(org.testng.ITestContext)[pri:0, instance:Google.TCGoogle@1f37ef1]" name="test" duration-ms="8171" started-at="2019-01-02T00:32:12Z" finished-at="2019-01-02T00:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b21967]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Google.TCGoogle@1f37ef1]" name="afterTest" is-config="true" duration-ms="4" started-at="2019-01-02T00:32:20Z" finished-at="2019-01-02T00:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b21967]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:Google.TCGoogle@1f37ef1]" name="endSuite" is-config="true" duration-ms="28" started-at="2019-01-02T00:32:20Z" finished-at="2019-01-02T00:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- Google.TCGoogle -->
+    </test> <!-- TCGoogle-Iteration1-Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

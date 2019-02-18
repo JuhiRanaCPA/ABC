@@ -1,0 +1,42 @@
+package <PackageName>;
+import java.awt.AWTException;
+import java.awt.HeadlessException;
+import java.io.IOException;
+import java.sql.Connection;
+import java.text.ParseException;
+import java.util.Hashtable;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.ITestContext;
+import org.testng.annotations.*;
+import Supporting.*;
+<ORImport>
+public class <ClassName> {
+ public String tcName;
+ Hashtable<String, String> Store_DB_Values = new Hashtable<String,String>();
+ Hashtable<String, String> Store_Step_Values = new Hashtable<String,String>();
+ Hashtable<String, String> Store_Env_Values = new Hashtable<String, String>();
+ Hashtable<String, String> Store_Param_Values = new Hashtable<String,String>();
+ 
+ @BeforeSuite
+ public void beforeSuite(final ITestContext testContext) throws Exception{
+  Store_Env_Values = Utilities.readEnvironment();
+  Utilities.StoreCopy_Env_Values = Store_Env_Values;
+  Report.StartSuite().equals("Created");
+ }
+ 
+ @Parameters({"browser", "iteration"})
+ @BeforeTest
+ public void beforeTest(final ITestContext testContext, String browser, String iteration) throws Exception{
+  Utilities.LaunchApplication(testContext, this.getClass().getName(), Store_Env_Values.get("Environment"), iteration, browser);
+  Report.PrintTestReport(testContext.getName());
+ }
+ @Test
+ public void test(final ITestContext testContext) throws Exception{
+  
+  String sTestName = testContext.getName(); String tmpVar = null; Connection conn = null;
+  Store_Param_Values = IO.getTestData(testContext.getName()); Utilities.Map_TestName_Params.put(sTestName, Store_Param_Values);
+  WebDriver lDriver = UI.getDriver(sTestName); 
+  <ORDETAILS>
+  
+  try {
